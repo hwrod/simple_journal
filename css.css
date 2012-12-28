@@ -1,0 +1,15 @@
+body, pre { font-family: Tahoma, Arial, sans serif; padding: 10px; color: #333; font-size: 24px; }
+div.tab { display: inline; padding: 10px 20px 10px 20px; border: 1px dotted #ccc; border-left: 0; border-right: 0; }
+div.tab:hover { text-decoration: underline; }
+div.tab span { cursor: pointer; }
+div.tab span.selected { font-weight: bold; }
+div#tabs { text-align: center; padding: 30px; }
+
+div.section { margin: auto 50px auto 50px; }
+div.title { color: #3B6AA0; padding-left: 32px; background: url(img/folderclosed.png) no-repeat left; cursor: pointer; }
+div.title.open { background: url(img/folderopen.png) no-repeat left; }
+div.content { margin: -20px 50px -20px }
+div.content, div.tags { display: none; white-space: pre-wrap; }
+div.tags { font-size: 15px; color: #82CFFD; text-indent: 32px; }
+h1,h2,h3,h4 { margin: -30px -50px 0px 0px;}
+h4 { color: #999; } h3 { color: #666; margin: -20px; } h2 { color: #333; margin: -20px; } h1 { color: #000; margin: -60px; }
